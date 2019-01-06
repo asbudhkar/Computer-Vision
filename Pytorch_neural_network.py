@@ -52,4 +52,4 @@ plt.scatter(input.data.numpy(), output.data.numpy())
 plt.title("Predicted output")
 plt.plot(input.data.numpy(), predicted_out.data.numpy(), 'r-', lw=5)
 plt.text(0.5, 0, 'Loss=%.4f' % loss.data.numpy(), fontdict={'size': 20, 'color':  'red'})
-plt.show(
+plt.show()
